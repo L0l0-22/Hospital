@@ -1,0 +1,38 @@
+*{box-sizing: border-box;
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    }
+:root{
+     --main-color:rgb(23, 123, 236);
+}
+.location{
+    padding: 90px;
+}
+.left-part{
+    float: left;
+    width: 50%;
+    padding: 50px;
+    font-size: larger;
+}
+.left-part h1 span{
+    color: var(--main-color);
+}
+.left-part h2 span{
+    color: var(--main-color);
+}
+.right-part{
+    float: right;
+    width: 50%;
+    padding: 50px;
+}
+.tittle2{
+    color: black;
+    text-align: center;
+    font-size: 60px;
+}
+.tittle2 span{
+    color: var(--main-color);
+}
